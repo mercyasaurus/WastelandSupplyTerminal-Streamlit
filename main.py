@@ -1,6 +1,94 @@
 import streamlit as st
 from recipelist import recipes
 
+st.set_page_config(
+    page_title="Wasteland Supply Terminal",
+    page_icon="🟢",
+    layout="centered",
+)
+
+#ST DESIGN ASPECT#
+
+st.markdown("""
+<style>
+/* Main page background */
+.stApp {
+    background-color: #0b0f0b;
+    color: #7CFF7C;
+}
+
+/* General text */
+html, body, [class*="css"]  {
+    color: #7CFF7C;
+    font-family: monospace;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #99ff99 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Text input boxes */
+.stTextInput input {
+    background-color: #111711;
+    color: #7CFF7C;
+    border: 1px solid #2f5f2f;
+    border-radius: 0px;
+}
+
+/* Number input */
+.stNumberInput input {
+    background-color: #111711;
+    color: #7CFF7C;
+    border: 1px solid #2f5f2f;
+    border-radius: 0px;
+}
+
+/* Selectbox */
+div[data-baseweb="select"] > div {
+    background-color: #111711 !important;
+    color: #7CFF7C !important;
+    border: 1px solid #2f5f2f !important;
+    border-radius: 0px !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #111711;
+    color: #7CFF7C;
+    border: 1px solid #2f5f2f;
+    border-radius: 0px;
+    font-family: monospace;
+}
+
+.stButton > button:hover {
+    background-color: #1a241a;
+    border-color: #7CFF7C;
+    color: #b7ffb7;
+}
+
+/* Alerts */
+.stAlert {
+    background-color: #111711;
+    color: #7CFF7C;
+    border: 1px solid #2f5f2f;
+}
+
+/* Divider */
+hr {
+    border-color: #2f5f2f;
+}
+</style>
+""", unsafe_allow_html=True)
+
+#END OF DESIGN
+
+
+
+
+
 validCats = ["food", "chems", "drinks", "alcohol", "big bloom", "misc", "more food", "more drinks"]
 
 # ---- HEADER ----
@@ -22,7 +110,7 @@ if mode == "Recipe Directory":
 
     category = st.selectbox(
         "Select a category",
-        ["all"] + validCats
+        ["all"] + validCats.title()
     )
 
     st.divider()
