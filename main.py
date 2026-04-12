@@ -110,7 +110,7 @@ if mode == "Recipe Directory":
 
     category = st.selectbox(
         "Select a category",
-        ["all"] + validCats.title()
+        ["all"] + validCats
     )
 
     st.divider()
