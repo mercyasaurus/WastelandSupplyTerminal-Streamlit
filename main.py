@@ -187,5 +187,5 @@ else:
             st.divider()
             st.subheader("Final Grocery List")
 
-            for sorted(ingredient), amount in shoppingList.items():
+            for ingredient, amount in shoppingList.items():
                 st.write(f"{ingredient}: {amount}")
