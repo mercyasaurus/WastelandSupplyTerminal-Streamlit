@@ -162,7 +162,7 @@ else:
                 key=recipe
             )
 
-        if st.button("Calculate Grocery List"):
+        if st.button("Calculate Resource List"):
             shoppingList = {}
 
             for recipe in validRecipes:
@@ -180,7 +180,7 @@ else:
                         shoppingList[ingredient] = totalNeeded
 
             st.divider()
-            st.subheader("Final Grocery List")
+            st.subheader("Final Resource List")
 
             for ingredient, amount in sorted(shoppingList.items()):
                 st.write(f"{ingredient}: {amount}")
