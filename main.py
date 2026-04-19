@@ -193,6 +193,7 @@ st.markdown("""
 - [Download EXE (Itch.io)](https://mercyasaurus.itch.io/wastelandsupplyterminal) 
 - [Download EXE (GitHub)](https://github.com/mercyasaurus/WastelandSupplyTerminal/releases/tag/v1.0) 
 - [Report Issues](https://github.com/mercyasaurus/WastelandSupplyTerminal/issues) 
+- Official website in the works!
 
 ---
 ### 💬 Need Help?
@@ -205,6 +206,6 @@ st.markdown("""
 If you’d like to support future development, you can do so here: 
 [Ko-fi](https://ko-fi.com/mercyasaurus)
 
-This tool is completely free—feedback or even just a comment is more than enough and always appreciated! :)
+This tool is completely free! Feedback or even just a comment is more than enough and always appreciated! :)
 """)
 
