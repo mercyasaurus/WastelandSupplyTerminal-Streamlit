@@ -184,3 +184,27 @@ else:
 
             for ingredient, amount in sorted(shoppingList.items()):
                 st.write(f"{ingredient}: {amount}")
+
+st.divider()
+
+st.markdown("""
+### 🔗 Links
+
+- [Download (Itch.io)](https://mercyasaurus.itch.io/wastelandsupplyterminal) 
+- [GitHub Download](https://github.com/mercyasaurus/WastelandSupplyTerminal/releases/tag/v1.0) 
+- [Report Issues](https://github.com/mercyasaurus/WastelandSupplyTerminal/issues) 
+
+---
+### 💬 Need Help?
+
+- [X / Twitter](https://x.com/mercyasaurus?s=21)
+
+---
+### 💖 Support
+
+If you’d like to support future development, you can do so here: 
+[Ko-fi](https://ko-fi.com/mercyasaurus)
+
+This tool is completely free—feedback or even just a comment is more than enough and always appreciated! :)
+""")
+
