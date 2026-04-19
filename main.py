@@ -190,14 +190,14 @@ st.divider()
 st.markdown("""
 ### 🔗 Links
 
-- [Download (Itch.io)](https://mercyasaurus.itch.io/wastelandsupplyterminal) 
-- [GitHub Download](https://github.com/mercyasaurus/WastelandSupplyTerminal/releases/tag/v1.0) 
+- [Download EXE (Itch.io)](https://mercyasaurus.itch.io/wastelandsupplyterminal) 
+- [Download EXE (GitHub)](https://github.com/mercyasaurus/WastelandSupplyTerminal/releases/tag/v1.0) 
 - [Report Issues](https://github.com/mercyasaurus/WastelandSupplyTerminal/issues) 
 
 ---
 ### 💬 Need Help?
 
-- [X / Twitter](https://x.com/mercyasaurus?s=21)
+- [X / Twitter](https://x.com/mercyasaurus?s=21): @mercyasaurus
 
 ---
 ### 💖 Support
